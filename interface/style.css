@@ -1,6 +1,37 @@
 /*Introdução de elementos*/
 body {
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(0, 255, 13);
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 0, 0);
+    margin: auto;
+}
+#bodyindex{
+    background-color: antiquewhite;
+}
+h3 {text-align: center;
+}
+tabel tr{
+    text-align: center;
+}
+/*estrutura do menu*/
+.menu{
+    list-style: none;
+    border: 2px solid;
+    float: left;
+}
+.menu li{
+    position: relative;
+    float: left;
+}
+.menu li a{
+    color: aqua;
+    text-decoration: none;
+    padding: 5px 12px;
+    display: block;
+}
+.menu li a :hover{
+    background-color: blueviolet;
+    color: firebrick;
+    box-shadow: 3px 10px red;
+    text-shadow: 5px 2px 5px blue;
 }
